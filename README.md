@@ -1,2 +1,2 @@
-# household-cookbook
+# cookbook
 Searchable Cookbook

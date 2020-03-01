@@ -1,0 +1,51 @@
+{
+	"source": {
+		"page": 2
+	},
+	"full_name": "Flaky Biscuts",
+	"companion": "sausage-gravy",
+	"tags": [
+		"biscuts-and-gravy"
+	],
+	"result": {
+		"quantity": 1,
+		"unit": "serving"
+	},
+	"format": {
+		"detail": ", {0}",
+		"instructions": "p"
+	},
+	"ingredients": [
+		{
+			"name": "flour",
+			"type": "all-purpose",
+			"quantity": 2,
+			"unit": "cup"
+		},
+		{
+			"name": "baking powder",
+			"quantity": 3.5,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "shortening",
+			"quantity": 5,
+			"unit": "tablespoon"
+		},
+		{
+			"name": "sugar",
+			"quantity": 1,
+			"unit": "tablespoon"
+		},
+		{
+			"name": "milk",
+			"type": "\\({1 \\over 2}\\)-percent",
+			"detail": "more as needed",
+			"quantity": "2/3",
+			"unit": "cup"
+		}
+	],
+	"instructions": [
+		"Heat oven to 425˚. In large bowl combine flour, baking powder and sugar. Cut in shortening until crumbly. Stir in milk just until moistened. Turn dough onto lightly floured surface; knead until smooth (1 minute). Roll out dough to \\({3 \\over 4}\\)-inch thickness. Cut into 2-inch biscut. Place an inch apart on cookie sheet. Bake for 10 to 14 minutes or until lightly browned."
+	]
+}

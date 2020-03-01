@@ -1,0 +1,111 @@
+{
+	"source": {
+		"page": 1
+	},
+	"full_name": "Reuben Brunch Bake",
+	"tags": [
+		"breakfast",
+		"brunch",
+		"lunch",
+		"sauerkraut"
+	],
+	"result": {
+		"quantity": {
+			"min": 8,
+			"max": 12
+		},
+		"unit": "serving"
+	},
+	"format": {
+		"detail": ", {0}",
+		"instructions": "p"
+	},
+	"ingredients": [
+		{
+			"name": "egg",
+			"detail": "lightly beaten",
+			"quantity": 8
+		},
+		{
+			"name": "sauerkraut",
+			"detail": "rinsed and well drained",
+			"quantity": 1,
+			"unit": {
+				"name": "can",
+				"detail": {
+					"quantity": 14.5,
+					"name": "ounce"
+				}
+			}
+		},
+		{
+			"name": "cheese",
+			"type": "shredded Swiss",
+			"quantity": 1,
+			"unit": {
+				"name": "cup",
+				"detail": {
+					"quantity": 8,
+					"name": "ounce"
+				}
+			}
+		},
+		{
+			"name": "beef",
+			"type": "deli corned",
+			"detail": "cut into 1-inch pieces",
+			"quantity": 1,
+			"unit": {
+				"name": "package",
+				"detail": {
+					"quantity": 2.5,
+					"name": "ounce"
+				}
+			}
+		},
+		{
+			"name": "onions",
+			"type": "chopped green",
+			"quantity": 0.5,
+			"unit": "cup"
+		},
+		{
+			"name": "milk",
+			"quantity": 0.5,
+			"unit": "cup"
+		},
+		{
+			"name": "mustard",
+			"type": "Dijon",
+			"quantity": 1,
+			"unit": "tablespoon"
+		},
+		{
+			"name": "salt",
+			"quantity": 0.5,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "peper",
+			"quantity": 0.25,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "bread",
+			"type": "rye",
+			"detail": "toasted and coarsely chopped",
+			"quantity": 3,
+			"unit": "slice"
+		},
+		{
+			"name": "butter",
+			"detail": "melted",
+			"quantity": 0.25,
+			"unit": "cup"
+		}
+	],
+	"instructions": [
+		"In a large bowl, combine the first nine ingredients. Pour into a greased 11-in. x 7-in. x 2-in. baking dish. Cover and refrigerate overnight.",
+		"Remove from the refrigerator 30 minutes before baking. Toss bread crumbs and butter; sprinkle over casserole. Bake, uncovered, at 350˚ for 40-45 minutes or until a knife inserted near the center comes out clean. Let stand for 10 minutes before serving."
+	]
+}

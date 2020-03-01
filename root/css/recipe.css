@@ -1,0 +1,25 @@
+ul {
+	list-style: none;
+}
+.arrow {
+	display: inline-block;
+	height: 21px;
+	width: 21px;
+	border: 3px solid var(--color);
+	border-radius: 50%;
+	transform: rotate(90deg);
+	transition: transform 250ms linear;
+}
+.rotate {
+	transform: rotate(0deg);
+}
+#full-name {
+	font-weight: bold;
+	text-decoration: underline;
+}
+#batches {
+	margin-top: 20px;
+}
+.indent {
+	text-indent: 25px;
+}

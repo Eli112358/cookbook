@@ -1,0 +1,15 @@
+:root {
+	--highlight: yellow;
+}
+.dark-mode {
+	--highlight: #666;
+}
+#query {
+	margin-bottom: 5px;
+}
+/* #query input {
+	width: 55%;
+} */
+.match {
+	background-color: var(--highlight);
+}

@@ -1,0 +1,11 @@
+#recipe-list {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 10px;
+}
+#recipe-list .recipe_link {
+	font-size: 20px;
+}
+#recipe-list > tr {
+	height: 60px;
+}

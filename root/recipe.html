@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Cookbook - Untitled</title>
+		<link href="css/fav-btn.css" rel="stylesheet">
+		<link href="css/recipe.css" rel="stylesheet">
+		<link href="css/tags.css" rel="stylesheet">
+		<link href="css/theme.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.0/math.min.js"></script>
+		<script src="js/createElement.js"></script>
+		<script src="js/dark-mode.js"></script>
+		<script src="js/favorites.js"></script>
+		<script src="js/pluralize.min.js"></script>
+		<script src="js/units.js"></script>
+		<script src="js/list-recipes.js"></script>
+		<script src="js/recipe.js"></script>
+		<script src="js/remote-file.min.js"></script>
+		<script src="js/tags.js"></script>
+	</head>
+	<body onload="load()">
+		<div class="wrapper">
+			<a href="index.html" class="centered-text"><h1>Cookbook</h1></a>
+			<div class="centered-text nav-panel">
+				<a href="favorites.html"><span class="desktop">Favorites</span><span class="mobile">♥</span></a>
+				<a href="edit-recipe.html"><span class="desktop">New</span><span class="mobile">+</span></a>
+				<a id="settings-btn" href="settings.html"><span class="desktop">Settings</span><span class="mobile">⛭</span></a>
+				<button class="dark-mode-btn" type="button" name="dark-mode-btn" onclick="darkMode.toggle()"><img src="images/ClipartKey_1311882-v2.png"></button>
+			</div>
+			<h2 id="full-name" class="centered-text"></h2>
+			<div id="companion" class="centered-text hidden">
+				Companion: <a></a>
+			</div>
+			<div class="tags centered-text"></div>
+			<table class="centered">
+				<tr>
+					<td class="fav-btn"></td>
+					<td id="source">
+						<p class="hidden source-page">Page <span></span></p>
+						<p class="hidden source-book">In <span></span></p>
+						<a class="hidden source-link" target="_blank">Source link</a>
+						<p class="hidden source-contributor">Contributed by <span></span></p>
+					</td>
+				</tr>
+			</table>
+			<div  class="centered-text">
+				<form id="batches" action="javascript:calcQuantities()">
+					Batches: <input type="text" name="batches" value="1">
+					<button type="submit" name="apply">Apply</button>
+					<button type="button" name="reset" onclick="resetBatches()">Reset</button>
+				</form>
+				<p id="result"></p>
+			</div>
+			<div id="ingredients" class="section centered">
+				<h3 class="centered-text">Ingredients <a class="arrow">></a></h3>
+				<div>
+					<ul></ul>
+				</div>
+			</div>
+			<div id="instructions" class="section centered">
+				<h3 class="centered-text">Instructions <a class="arrow">></a></h3>
+				<div class="indent"></div>
+			</div>
+		</div>
+		<div class="push"></div>
+		<div class="footer centered-text">
+			<p></p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+.fav-btn {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 18px;
+	position: relative;
+	width: 50px;
+	top: 20px
+}
+.fav-btn::before,
+.fav-btn::after {
+	font-size: 3em;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: #777;
+}
+@media screen and (pointer:coarse) {
+	.fav-btn::before,
+	.fav-btn::after {
+		content: "♡";
+	}
+}
+@media screen and (pointer:fine) {
+	.fav-btn::before,
+	.fav-btn::after {
+		content: "♥";
+	}
+}
+.fav-btn::before {
+	height: 50px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.fav-btn::after {
+	-webkit-transform: translate(-50%, -50%) scale(0);
+			transform: translate(-50%, -50%) scale(0);
+	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-ransform 0.2s;
+}
+.fav-btn.faved::after, {
+	-webkit-transform: translate(-50%, -50%) scale(1.1);
+			transform: translate(-50%, -50%) scale(1.1);
+}
+.fav-btn.faved,
+.fav-btn.faved::before,
+.fav-btn.faved::after {
+	color: #ff3252;
+}

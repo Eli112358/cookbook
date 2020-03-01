@@ -1,0 +1,78 @@
+{
+	"source": {
+		"page": 2
+	},
+	"full_name": "Easy Breakfast Casserole",
+	"tags": [
+		"breakfast",
+		"casserole"
+	],
+	"result": {
+		"quantity": {
+			"min": 2,
+			"max": 4
+		},
+		"unit": "serving"
+	},
+	"format": {
+		"instructions": "p"
+	},
+	"ingredients": [
+		{
+			"name": "bread",
+			"detail": "cut in cubes",
+			"format": {
+				"detail": ", {0}"
+			},
+			"quantity": 2,
+			"unit": "slice"
+		},
+		{
+			"name": "sausage",
+			"type": "pork",
+			"detail": "or chicken",
+			"format": {
+				"detail": " ({0})"
+			},
+			"quantity": 0.5,
+			"unit": "pound"
+		},
+		{
+			"name": "cheese",
+			"type": "shredded cheddar",
+			"quantity": 0.5,
+			"unit": "cup"
+		},
+		{
+			"name": "egg",
+			"quantity": 3
+		},
+		{
+			"name": "milk",
+			"quantity": 1,
+			"unit": "cup"
+		},
+		{
+			"name": "mustard",
+			"type": "ground",
+			"quantity": 0.5,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "salt",
+			"quantity": 0.25,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "pepper",
+			"quantity": 0.125,
+			"unit": "teaspoon"
+		}
+	],
+	"instructions": [
+		"Cut bread into 1\" cubes. Place in a greased 8\" baking dish.",
+		"Brown sausage in skillet, drain.",
+		"Sprinkle sausage & cheese over bread cubes.",
+		"In a bowl, whisk the eggs, milk, salt, pepper & mustard. Pour over the sausage & cheese. Bake at 350˚ for 30 minutes until puffed & golden."
+	]
+}

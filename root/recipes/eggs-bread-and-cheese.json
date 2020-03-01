@@ -1,0 +1,70 @@
+{
+	"source": {
+		"page": 1,
+		"contributor": "Rachel"
+	},
+	"full_name": "Eggs - Bread & Cheese",
+	"tags": [
+		"hand-written"
+	],
+	"result": {
+		"quantity": 12,
+		"unit": "serving",
+		"detail": "maybe",
+		"format": {
+			"detail": " ({0})"
+		}
+	},
+	"format": {
+		"detail": " ({0})",
+		"instructions": "p"
+	},
+	"ingredients": [
+		{
+			"name": "bread",
+			"detail": "remove crust",
+			"quantity": 12,
+			"unit": "slice"
+		},
+		{
+			"name": "cheese",
+			"type": "sharp cheddar",
+			"detail": "Old Eng.",
+			"quantity": 6,
+			"unit": "slice"
+		},
+		{
+			"name": "milk",
+			"detail": "or less if desired",
+			"quantity": 3.5,
+			"unit": "cup"
+		},
+		{
+			"name": "egg",
+			"detail": "slightly beaten",
+			"format": {
+				"detail": ", {0}",
+				"optioanl": " (or {0})"
+			},
+			"quantity": {
+				"deafult": 8,
+				"optioanl": 12
+			}
+		},
+		{
+			"name": "mustard",
+			"type": "dry",
+			"quantity": 0.5,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "salt & pepper to taste"
+		}
+	],
+	"instructions": [
+		"Butter a 9\" x 13\" baking dish. Lay 6 slices of bread on bottom of pan. Place cheese on bread & cover with remaining bread.",
+		"Blend milk, eggs, mustard, salt & pepper in bowl. Pour over bread. Dust top with paprika.",
+		"Let stand for at least 3 hours before baking. Refrigerate over night. Let come to room temp. before baking.",
+		"Bake at 325˚ for 45 minutes until browned on top."
+	]
+}

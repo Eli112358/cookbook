@@ -1,0 +1,92 @@
+:root {
+	--bg-color: white;
+	--color: black;
+	--nav-bg-color: #eee;
+	--nav-color: black;
+	--nav-hover: #ccc;
+}
+.dark-mode {
+	--bg-color: #444;
+	--color: white;
+	--nav-bg-color: #777;
+	--nav-color: #777;
+	--nav-hover: #999;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background-color: var(--bg-color);
+	color: var(--color);
+}
+a {
+	color: var(--color);
+}
+@media screen and (pointer:fine) {
+	.centered {
+		margin: 0 auto;
+		width: 50%;
+	}
+	.mobile {
+		display: none;
+	}
+}
+@media screen and (pointer:coarse) {
+	.desktop {
+		display: none;
+	}
+}
+.centered-text {
+	text-align: center;
+}
+table.centered {
+	margin: 0 auto;
+	width: auto;
+}
+.hidden {
+	display: none;
+}
+.nav-panel a {
+	text-decoration: none;
+}
+.nav-panel a,
+.nav-panel button,
+.nav-panel input {
+	background-color: var(--nav-bg-color);
+	border: 5px solid var(--nav-color);
+	border-radius: 15px;
+	color: var(--color);
+	font-size: 24px;
+	padding: 3px;
+}
+.nav-panel input {
+	width: 55%;
+}
+.nav-panel a:hover,
+.nav-panel button:hover,
+.nav-panel input:hover {
+	background-color: var(--nav-hover);
+	border: 5px solid var(--nav-hover);
+}
+.dark-mode-btn {
+	border: 5px solid black;
+}
+.dark-mode-btn img {
+	--size: 25px;
+	height: var(--size);
+	width: var(--size);
+	vertical-align: middle;
+}
+.wrapper {
+	min-height: 100%;
+	height: 100%;
+	margin: 0 auto -50px;
+}
+.footer, .push {
+	height: 50px;
+}
+.footer {
+	color: darkred;
+	margin-top: 100px;
+	padding-top: 100px;
+}

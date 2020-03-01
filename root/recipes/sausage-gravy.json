@@ -1,0 +1,51 @@
+{
+	"source": {
+		"page": 2
+	},
+	"full_name": "Sausage Gravy",
+	"companion": "flaky-biscuts",
+	"tags": [
+		"biscuts-and-gravy"
+	],
+	"result": {
+		"quantity": 1,
+		"unit": "serving"
+	},
+	"format": {
+		"detail": "",
+		"instructions": "p"
+	},
+	"ingredients": [
+		{
+			"name": "sausage",
+			"type": "breakfast",
+			"quantity": 3,
+			"unit": "pound"
+		},
+		{
+			"name": "flour",
+			"quantity": 2,
+			"unit": "cup"
+		},
+		{
+			"name": "chicken bouillon granules",
+			"quantity": {
+				"min": 6,
+				"max": 6.5
+			},
+			"unit": "teaspoon"
+		},
+		{
+			"name": "milk",
+			"type": "skim or low fat",
+			"quantity": {
+				"min": 3,
+				"max": 3.5
+			},
+			"unit": "quart"
+		}
+	],
+	"instructions": [
+		"Brown sausage, but do not drain. Add approximately 2 cups of flour and 4 to 6 teaspoons chicken bouillon granules. Add skim or low fat milk. Simmer 30 minutes. Add cornstarch if too thin or extra milk if too thick. Serve over baking powder biscuts."
+	]
+}

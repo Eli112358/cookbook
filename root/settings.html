@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Cookbook - Settings</title>
+		<link href="css/theme.css" rel="stylesheet">
+		<link href="css/settings.css" rel="stylesheet">
+		<script src="js/createElement.js"></script>
+		<script src="js/dark-mode.js"></script>
+		<script src="js/list-recipes.js"></script>
+		<script src="js/remote-file.min.js"></script>
+		<script src="js/units.js"></script>
+		<script src="js/settings.js"></script>
+	</head>
+	<body onload="load()">
+		<div class="wrapper">
+			<a href="index.html" class="centered-text"><h1>Cookbook</h1></a>
+			<div class="centered-text nav-panel">
+				<a href="favorites.html"><span class="desktop">Favorites</span><span class="mobile">♥</span></a>
+				<a href="edit-recipe.html"><span class="desktop">New</span><span class="mobile">+</span></a>
+				<button class="dark-mode-btn" type="button" name="dark-mode-btn" onclick="darkMode.toggle()"><img src="images/ClipartKey_1311882-v2.png"></button>
+			</div>
+			<h2 class="centered-text">Abbreviations</h2>
+			<form id="units" class="nav-panel" action="javascript:save()">
+				<div class="centered-text">
+					<button type="submit" name="save">Save</button>
+					<button type="reset" name="reset">Reset</button>
+				</div>
+			</form>
+		</div>
+		<div class="push"></div>
+		<div class="footer centered-text">
+			<p></p>
+		</div>
+	</body>
+</html>

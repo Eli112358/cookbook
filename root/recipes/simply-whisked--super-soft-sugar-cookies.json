@@ -1,0 +1,75 @@
+{
+	"source": {
+		"link": "https://www.simplywhisked.com/super-soft-sugar-cookies",
+		"contributor": "Luke Turner"
+	},
+	"full_name": "Simply Whisked: Super Soft Sugar Cookies (Dairy Free)",
+	"tags": [
+		"cookie",
+		"dairy-free"
+	],
+	"result": {
+		"quantity": 24,
+		"unit": "cookie"
+	},
+	"format": {
+		"detail": ", {0}",
+		"instructions": "li"
+	},
+	"ingredients": [
+		{
+			"name": "flour",
+			"type": "all purpose",
+			"quantity": 2,
+			"unit": "cup"
+		},
+		{
+			"name": "baking powder",
+			"quantity": 1,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "baking soda",
+			"quantity": 0.5,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "salt",
+			"quantity": 0.25,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "vegetable oil",
+			"quantity": 1,
+			"unit": "cup"
+		},
+		{
+			"name": "sugar",
+			"quantity": 1,
+			"unit": "cup"
+		},
+		{
+			"name": "egg",
+			"quantity": 1
+		},
+		{
+			"name": "vanilla extract",
+			"quantity": 1,
+			"unit": "teaspoon"
+		},
+		{
+			"name": "sugar",
+			"type": "extra",
+			"detail": "for rolling"
+		}
+	],
+	"instructions": [
+		"Preheat oven to 350˚F, and line 2 cookie sheets with parchment paper.",
+		"In a medium bowl, whisk together the flour, baking powder, baking soda and salt. Set aside.",
+		"In a large bowl with an electric mixer, cream the oil and sugar until fluffy – about 1 minute.",
+		"Add the egg and vanilla extract. Beat until combined.",
+		"Add the flour mixture in 1/2 cup increments, mixing to combine and scraping sides when necessary.",
+		"Using a small cookie scoop, form dough into balls and roll in extra sugar. Place on cookie sheet about 2 inches apart.",
+		"Bake cookies for 10 – 11 minutes or until cookies have spread and the tops begin to crack. Remove from oven and allow the cookies to rest for 5 minutes before transferring them to a cooling rack."
+	]
+}

@@ -18,6 +18,7 @@ html, body {
 body {
 	background-color: var(--bg-color);
 	color: var(--color);
+	margin: 0;
 }
 a {
 	color: var(--color);

@@ -49,6 +49,7 @@ function reset() {
 }
 function load() {
 	darkMode.load();
+	svg4everybody();
 	fetchRecipes(loader); // for deafult units
 	document.querySelector("#units").reset.onclick = reset;
 }

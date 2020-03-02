@@ -211,6 +211,7 @@ function loadRecipe() {
 }
 function load() {
 	darkMode.load();
+	svg4everybody();
 	pluralize.addPluralRule(/\.$/i, ".");
 	Array.from(document.querySelectorAll(".arrow")).forEach((el, i) => {
 		el.setAttribute("onclick", `toggleSection(this, ${i})`);

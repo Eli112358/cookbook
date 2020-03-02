@@ -17,5 +17,6 @@ function loadRecipes() {
 }
 function load() {
 	darkMode.load();
+	svg4everybody();
 	fetchRecipes(loader);
 }

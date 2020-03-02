@@ -73,6 +73,7 @@ function loadRecipes() {
 }
 function load() {
 	darkMode.load();
+	svg4everybody();
 	const query = new URLSearchParams(location.search).get("q");
 	if (query) {
 		document.querySelector("#query input").value = query.replace("+", " ");

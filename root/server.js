@@ -4,7 +4,7 @@ const redirect = require("connect-redirection");
 const serveStatic = require("serve-static");
 const os = require("os");
 const index = require('./index');
-const port = 8080;
+const port = 80;
 if (!index.exists()) {
 	index.rebuild();
 }

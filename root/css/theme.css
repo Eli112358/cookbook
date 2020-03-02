@@ -26,16 +26,13 @@ body {
 a {
 	color: var(--color);
 }
-@media screen and (pointer:fine) {
+@media screen and (min-width: 900px) {
 	.centered {
 		margin: 0 auto;
 		width: 50%;
 	}
-	.mobile {
-		display: none;
-	}
 }
-@media screen and (pointer:coarse) {
+@media screen and (max-width: 600px) {
 	.desktop {
 		display: none;
 	}

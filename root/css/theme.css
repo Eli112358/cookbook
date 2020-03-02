@@ -4,6 +4,8 @@
 	--nav-bg-color: #eee;
 	--nav-color: black;
 	--nav-hover: #ccc;
+	--footer-color: #444;
+	--footer-bg-color: #aaa;
 }
 .dark-mode {
 	--bg-color: #444;
@@ -11,6 +13,8 @@
 	--nav-bg-color: #777;
 	--nav-color: #777;
 	--nav-hover: #999;
+	--footer-color: #aaa;
+	--footer-bg-color: #666;
 }
 html, body {
 	height: 100%;
@@ -86,7 +90,8 @@ table.centered {
 	height: 50px;
 }
 .footer {
-	color: darkred;
+	color: var(--footer-color);
+	background-color: var(--footer-bg-color);
 	margin-top: 100px;
 	padding-top: 100px;
 }

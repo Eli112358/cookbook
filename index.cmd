@@ -1,8 +1,11 @@
 @echo off
 cls
 pushd root
-where node >nul 2>&1 && node index.js || goto no_node
+where node >nul 2>&1 && call :runScript || goto no_node
 popd
+exit/b
+:runScript
+node index.js
 exit/b
 :no_node
 echo Please install NodeJS. Redirecting ...
